@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Blog</title>
+    <style>
+        /* General Reset */
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #fef7e8, #e8dcc9);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8cbf88;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        nav a:hover {
+            background: #fff;
+            color: #8cbf88;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        main h2 {
+            color: #6d9c72;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        main p {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #6d9c72;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        .image-banner {
+            width: 100%;
+            height: 300px;
+            background: url('https://source.unsplash.com/featured/?nature') no-repeat center center/cover;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nature Blog</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#posts">Blog Posts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-banner"></div>
+        <h2>Welcome to the Nature Blog</h2>
+        <p>
+            Discover the beauty and serenity of nature. From breathtaking landscapes to tips on
+            living a sustainable life, our blog is your gateway to a harmonious connection with
+            the natural world.
+        </p>
+        <p>
+            Explore our latest posts and let nature inspire your journey.
+        </p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nature Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
